@@ -1,0 +1,85 @@
+/* Write some CSS below */
+
+body 
+{
+background-color: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:black;
+font-size: 18px;
+font-family: "Playfair Display", serif;
+text-align:center; 
+}
+
+h1,h2,h3
+{
+font-family: "DM Serif Display", serif;
+}
+
+h1
+{
+font-size: 32px; 
+font-weight:800;
+color: #1D2671;
+}
+
+h2
+{
+font-size: 28px;
+font-weight:400; 
+color: #C33764;
+
+}
+
+h3
+{
+font-size: 24px;
+font-weight:200;
+color :black
+}
+
+div
+{
+background-color: white; 
+box-shadow: 0 0px 20px white;
+padding: 20px;
+margin: 20px auto; 
+border-radius: 50px;
+border:#7508a4;
+
+}
+
+.banner
+{
+    padding: 20px ;
+    display: flex;
+}
+
+img
+{
+border-radius: 50%;
+height:200px;
+object-fit: cover;
+}
+
+a 
+{
+text-decoration: none;
+color: white;
+background-color:#1d08a4 ;
+border-radius: 10px;
+padding: 15px 25px;
+}
+
+a:hover 
+{
+background-color: #c33763ff ;  
+}
+
+.savoir-etre , .savoir-faire
+{
+    padding: 0px;
+    margin: 10px auto; 
+    width: 600px;
+}
+
